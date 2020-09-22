@@ -13,3 +13,6 @@ Luisa -
 - cards individuais apresentando os integrantes do grupo
 
 Raul -  
+- tela de login, com predominância no lado esquerdo, com espaços pro aluno entrar com seu RA e sua senha. Opção para mostrar a senha, e botão de login.
+- tela de cadastro, com predominância no lado direito, com espaços pro aluno colocar seus dados e botão para fazer o cadastro em si.
+- logo do projeto no topo da tela 
