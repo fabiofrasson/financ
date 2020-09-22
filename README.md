@@ -1,6 +1,11 @@
-Fabio - Responsável pela página "index", composta por um menu superior (header), e uma página com boxes com testos e títulos (H1) que têm efeito Parallax conforme a barra de rolagem desce.
+Fabio - Responsï¿½vel pela pï¿½gina "index", composta por um menu superior (header), e uma pï¿½gina com boxes com testos e tï¿½tulos (H1) que tï¿½m efeito Parallax conforme a barra de rolagem desce.
 
-Fernando - 
+Fernando - Sobre:
+- Header com a logo, menu com sobre e contato e botÃ£o de login e cadastre-se
+- FormulÃ¡rio para digitar o nome e e-mail
+- Caixa para confirmar que nÃ£o Ã© um robÃ´
+- EspaÃ§o para digitar a mensagem
+- BotÃ£o para enviar a mensagem
 
 Luisa - 
 
