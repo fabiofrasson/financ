@@ -1,0 +1,67 @@
+/* Estrutura geral */
+
+* {
+	margin: 0;
+	padding: 0; 
+	background-color: #C5DBC7;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fontes/Roboto-Regular.woff");
+}
+
+#container {
+	font-family: "Roboto-Regular";
+}
+
+#container a {
+	color: #04660E;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	flex: 1 1 150px;
+	align-items: center;
+	text-align: center;
+	background-color: #C5DBC7;
+	height: 139px;
+	top: 0px;
+	left: 0px;
+	display: inline;
+	position: relative;
+}
+
+#header ul {
+	display: flex;
+  	justify-content: center;
+  	align-items: center;	
+	list-style: none;
+	margin: 0 auto;
+}
+
+#header li {
+	flex: 1 1;
+}
+
+#header img {
+	width: 150px;
+	max-width: 100%;
+	height: auto;
+	margin: 20px 20px;
+	padding: 0px;
+}
+
+.botao {
+	border: 2px solid #04660E;
+	border-radius: 25px;
+	padding: 10px 70px;
+	width: 270px;
+}
+
