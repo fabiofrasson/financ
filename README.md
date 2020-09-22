@@ -8,5 +8,8 @@ Fernando - Sobre:
 - Botão para enviar a mensagem
 
 Luisa - 
+- Header com a logo, menu com sobre e contato e botão de login e cadastre-se
+- texto explicando o que e o finance
+- cards individuais apresentando os integrantes do grupo
 
-Raul - teste 1
+Raul -  
