@@ -1,0 +1,10 @@
+:root{
+    --color-background: #C5DBC7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
