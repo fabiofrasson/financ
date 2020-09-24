@@ -1,20 +1,20 @@
 
 
 body{
-    background-color: var(--color-background);
+    background: var(--color-background2);
     width: 100vw;
     height: 100vh;
 }
 
 header{
     width: 100%;
-    height: 20vh;
+    height: 17vh;
     border-bottom: 1px solid white;
 }
 
 div.container{
     width: 100%;
-    height: 80vh;
+    height: 83vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,8 @@ hr{
 
 div#formulario{
     width: 80%;
-    margin: 40px auto;
+    margin: 50px auto;
+
 }
 
 input.contato{
@@ -61,7 +62,7 @@ input.contato{
     height: 25px;
     border: none;
     border-bottom: 1px solid black;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     padding: 5px 10px;
     outline: none;
 }
@@ -90,4 +91,43 @@ button#enviar{
     border: none;
     color: white;
     font-size: 18pt;
+}
+
+header img{
+    height: 50%;
+}
+
+@media(max-width: 600px){
+    div#box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#form{
+        width: 80vw;
+        border: none;
+    }
+
+    div#formulario{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    div#formulario input{
+        margin-bottom: 30px;
+    }
+    div#mensagem{
+        width: 80vw;
+        align-items: center;
+        height: 40%;
+    }
+
+    textarea{
+        width: 70%;
+        min-width: 60%;
+    }
+
+    button#enviar{
+        height: 30px;
+    }
 }
