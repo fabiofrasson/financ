@@ -1,9 +1,13 @@
 /* Estrutura geral */
 
+body, html {
+	height: 100%;
+	font-family: "Roboto-Regular";
+}
+
 * {
 	margin: 0;
 	padding: 0; 
-	background-color: #C5DBC7;
 	box-sizing: border-box;
 }
 
@@ -12,56 +16,67 @@
 	src: url("../fontes/Roboto-Regular.woff");
 }
 
-#container {
-	font-family: "Roboto-Regular";
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 139px;
+	width: 100%;
 }
 
-#container a {
+header a {
 	color: #04660E;
 	font-size: 28px;
 	text-decoration: none;
 }
 
-#header {
+header ul {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	flex: 1 1 150px;
-	align-items: center;
-	text-align: center;
-	background-color: #C5DBC7;
-	height: 139px;
-	top: 0px;
-	left: 0px;
-	display: inline;
-	position: relative;
-}
-
-#header ul {
-	display: flex;
-  	justify-content: center;
+	justify-content: space-around;
   	align-items: center;	
 	list-style: none;
-	margin: 0 auto;
+	/*width: 50%;*/
 }
 
-#header li {
-	flex: 1 1;
+header li {
+	margin-right: 30px;
 }
 
-#header img {
+header img {
 	width: 150px;
 	max-width: 100%;
 	height: auto;
-	margin: 20px 20px;
-	padding: 0px;
+	margin: 20px 40px;
+	padding: 20px;
 }
 
 .botao {
 	border: 2px solid #04660E;
 	border-radius: 25px;
-	padding: 10px 70px;
+	padding: 10px 60px;
 	width: 270px;
 }
 
+
+/* Efeito Parallax */
+
+.imagem1 {
+	background-image: url("../imagens/1.jpg");
+}
+
+.imagem2 {
+	background-image: url("../imagens/2.jpg");
+}
+
+.imagem3 {
+	background-image: url("../imagens/3.jpg");
+}
+
+.imagem1, .imagem2, .imagem3 {
+	position: relative;
+	height: 100%;
+	opacity: 0.7%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
