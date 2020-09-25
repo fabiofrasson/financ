@@ -1,82 +1,129 @@
-/* Estrutura geral */
+/* Configurações gerais da página */
 
 body, html {
-	height: 100%;
-	font-family: "Roboto-Regular";
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Roboto-Regular";
+    line-height: 1.8em;
+    color: #04660E;
 }
 
-* {
-	margin: 0;
-	padding: 0; 
-	box-sizing: border-box;
+/* Navegação */
+
+#navbar {
+    background:  #C5DBC7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+    margin: 0;
+}
+
+#navbar div {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto auto 30px;
+}
+
+#navbar img {
+    width: 75px;  
+    height: auto;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color:  #04660E;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 10px 30px;
+}
+
+#navbar ul a:hover {
+    color: white;
+    background-color:  #04660E;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin: 10px 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {    
+    list-style-type: none;    
+    margin: 50px;
+}
+
+/* Configurações Parallax */
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pimg1 {
+    background-image: url('../imagens/1.jpg');
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url('../imagens/2.jpg');
+    min-height: 100%;
+    
+}
+
+.pimg3 {
+    background-image: url('../imagens/3.jpg');
+    min-height: 100%;
+    
+}
+
+.section {
+    text-align: center;
+    padding: 35px 80px;
+    background-color: #C5DBC7;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+}
+
+.ptext .border {
+    background-color: #04660E;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Configurações Rodapé */
+
+#rodape {
+    background-color: #C5DBC7;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 @font-face {
 	font-family: "Roboto-Regular";
 	src: url("../fontes/Roboto-Regular.woff");
-}
-
-header {
-	display: flex;
-	justify-content: space-between;
-	height: 139px;
-	width: 100%;
-}
-
-header a {
-	color: #04660E;
-	font-size: 28px;
-	text-decoration: none;
-}
-
-header ul {
-	display: flex;
-	justify-content: space-around;
-  	align-items: center;	
-	list-style: none;
-	/*width: 50%;*/
-}
-
-header li {
-	margin-right: 30px;
-}
-
-header img {
-	width: 150px;
-	max-width: 100%;
-	height: auto;
-	margin: 20px 40px;
-	padding: 20px;
-}
-
-.botao {
-	border: 2px solid #04660E;
-	border-radius: 25px;
-	padding: 10px 60px;
-	width: 270px;
-}
-
-
-/* Efeito Parallax */
-
-.imagem1 {
-	background-image: url("../imagens/1.jpg");
-}
-
-.imagem2 {
-	background-image: url("../imagens/2.jpg");
-}
-
-.imagem3 {
-	background-image: url("../imagens/3.jpg");
-}
-
-.imagem1, .imagem2, .imagem3 {
-	position: relative;
-	height: 100%;
-	opacity: 0.7%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-}
