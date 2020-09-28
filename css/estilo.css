@@ -14,7 +14,7 @@ body, html {
 #navbar {
     background:  #C5DBC7;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 50px;
     width: 100%;    
@@ -36,35 +36,38 @@ body, html {
 #navbar ul a {
     text-decoration: none;
     color:  #04660E;
-    padding: 10px;
-    border-radius: 2px;
-    margin: 10px 30px;
+    padding: 10px 30px;
+    border-radius: 6.5px;
+    margin: 10px 20px;
 }
 
 #navbar ul a:hover {
     color: white;
     background-color:  #04660E;
-    border-radius: 5px;
-    transition: 0.5s;
-    margin: 10px 30px;
+    border-radius: 6.5px;
+    transition: 0.3s;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    width: 100%;
 }
 
 ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
 }
 
 li {    
     list-style-type: none;    
     margin: 50px;
+    text-align: center;
 }
+
 
 /* Configurações Parallax */
 
 .pimg1, .pimg2, .pimg3 {
     position: relative;
-    opacity: 0.70;
+    opacity: 0.55;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -112,7 +115,20 @@ li {
     color: white;
     padding: 20px;
     border-radius: 15px;
+    border: 1px solid white;
 }
+
+
+/* Configurações linhas */
+
+hr {
+    margin: 0;
+    width: 100%;
+    color: white;
+    height: 1px;
+    border: none;
+}
+
 
 /* Configurações Rodapé */
 
@@ -123,6 +139,9 @@ li {
     margin: 0;
     padding: 0;
 }
+
+
+/* Fonte */
 
 @font-face {
 	font-family: "Roboto-Regular";
