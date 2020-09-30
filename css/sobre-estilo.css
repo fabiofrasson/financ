@@ -1,5 +1,19 @@
+div#box{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.collapsible{
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+
+}
+
 body{
-    background: var(--color-background2);
+    background: green;
     width: 100vw;
-    height: 100vh;
 }
