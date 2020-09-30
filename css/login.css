@@ -1,9 +1,11 @@
+
+
 body{
     background-image: url("../imagens/img-de-fundo.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
     width: 100%;
     max-height: 100vh;
-
-    
 }
 
 div#container{
@@ -14,7 +16,6 @@ div#container{
     border-radius: 15%;
     margin-top: 30%;
     transform: translateY(-50%);
-
 }
 
 .branco{
@@ -26,29 +27,88 @@ div#container{
     padding: 30px;
 }
 
-.verde{
-    width: 40%;
-    height: 100%;
-    background:green;
-    border-radius: 0 15% 15% 0;
-}
-
 .branco input{
     outline: none;
     background: rgba(0, 0, 0, .05);
     border: none;
-    padding: 10px;
-    color: rgba(0, 0, 0, .1);
-    border-radius: 10px;
+    padding: 15px 10px;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 20px;
     width: 100%;
     margin-bottom: 15px;
+    position: relative;
+}
+
+div#inputIcon1{
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 form{
-    width: 65%;
-    margin: 150px auto 10px auto;
+    width: 60%;
+    margin: 150px auto 25px auto;
 }
 
 .branco h2{
+    margin-top: 120px;
+    font-size: 25pt;
     color: #8DB892;
+}
+
+.branco input#MostrarSenha{
+    width: 20px;
+}
+
+.branco input#Logar {
+    background-color: #8DB892;
+    width: 40%;
+    padding: 20px;
+    font-size: 16pt;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+
+
+
+.verde{
+    width: 40%;
+    height: 100%;
+    background: #8DB892;
+    border-radius: 0 15% 15% 0;
+    text-align: center;
+}
+
+.verde h2{
+    padding: 30px;
+    margin-top: 120px;
+    font-size: 25pt;
+    color: #ffffff;
+}
+
+.verde p{
+    width: 65%;
+    padding: 30px;
+    margin-top: 80px;
+    font-size: 17pt;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.verde input {
+    background-color:transparent;
+    border: 1px solid white;
+    width: 40%;
+    padding: 20px;
+    font-size: 16pt;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-top: 100px;
 }
