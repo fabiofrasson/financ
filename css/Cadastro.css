@@ -2,10 +2,10 @@
 
 body{
     background-image: url("../imagens/img-de-fundo.jpeg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 100%;
-    overflow-y: hidden;
+    max-height: 100vh;
 }
 
 div#container{
@@ -18,69 +18,11 @@ div#container{
     transform: translateY(-50%);
 }
 
-.branco{
-    width: 60%;
-    height: 100%;
-    background: #ffffff;
-    border-radius:15% 0 0 15%;
-    text-align: center;
-    padding: 30px;
-}
-
-.branco input{
-    outline: none;
-    background: rgba(0, 0, 0, .05);
-    border: none;
-    padding: 15px 10px;
-    color: rgba(0, 0, 0, 1);
-    border-radius: 20px;
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
-}
-
-
-form{
-    width: 60%;
-    margin: 150px auto 25px auto;
-}
-
-.branco h2{
-    margin-top: 120px;
-    font-size: 25pt;
-    color: #8DB892;
-}
-
-.branco input#MostrarSenha{
-    width: 20px;
-}
-
-.branco button {
-    background-color: #8DB892;
-    width: 40%;
-    padding: 20px;
-    font-size: 16pt;
-    color: #ffffff;
-    font-weight: bold;
-    margin-top: 40px;
-    border: none;
-    outline: none;
-    border-radius: 15px;
-    transition: 0.5s;
-}
-
-.branco button:hover {
-    background-color: transparent;
-    border: 2px solid green;
-    color: green;
-}
-
-
 .verde{
     width: 40%;
     height: 100%;
     background: #8DB892;
-    border-radius: 0 15% 15% 0;
+    border-radius: 15% 0 0 15%;
     text-align: center;
 }
 
@@ -117,3 +59,58 @@ form{
     background-color: white;
     color: green;
 }
+
+
+
+.branco{
+    width: 60%;
+    height: 100%;
+    background: #ffffff;
+    border-radius:0 15% 15% 0;
+    text-align: center;
+    padding: 30px;
+}
+
+.branco input{
+    outline: none;
+    background: rgba(0, 0, 0, .05);
+    border: none;
+    padding: 15px 10px;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+form{
+    width: 60%;
+    margin: 80px auto 25px auto;
+}
+
+.branco h2{
+    margin-top: 120px;
+    font-size: 25pt;
+    color: #8DB892;
+}
+
+.branco button {
+    background-color: #8DB892;
+    width: 40%;
+    padding: 20px;
+    font-size: 16pt;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.branco button:hover {
+    background-color: transparent;
+    border: 2px solid green;
+    color: green;
+}
+

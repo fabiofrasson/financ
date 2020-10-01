@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <HTML>
 
-<head>
-    <title>Login | FinanC</title>
-     
-    <meta charset = "utf-8"/>
-     <meta name="description" content="Controle suas finanças conosco no FinanC, de forma fácil e didática!"   />
-     <meta name="keywords" content="FinanC, finanças, dinheiro, contas"/>
-     <meta name="author" content="Raul Rios" />
-</head>
+    <head>
+        <title>Cadastro | FinanC</title>
+        <meta charset = "utf-8"/>
+        <meta name="description" content="Controle suas finanças conosco no FinanC, de forma fácil e didática!"/>
+        <meta name="keywords" content="FinanC, finanças, dinheiro, contas"/>
+        <meta name="author" content="Raul Rios" />
+        <link rel="stylesheet" href="css/Cadastro.css">
+        <link rel="stylesheet" href="css/estilo-global.css">
+    </head>
 
-<body>
-   <p>conteúdo</p>
-   <a href="../Login.html">Voltar</a>
-</body>   
+    <body>
+        <div id="container">
+            <div class="verde">
+                <h2>Bem-vindo (a), Estudante!</h2>
+                   <p>Ja possui conta? Faça seu login!</p>
+                   <a href="Login.html">
+                    <input type="button" id="Cadastro" value="Login">
+                   </a>
+             </div>
 
-    
+             <div class="branco">
+                <h2>Cadastre-se!</h2>
+                <form>
+                   <input type="text" placeholder="Nome"/>
+                   <input type="text" placeholder="Email">
+                   <input type="text" placeholder="RA"/>
+                   <input type="password" placeholder="Senha">
+                   <input type="passowrd" placeholder="Repetir Senha"/>
+                </form>
+                    
+                
+                
+                <button type="submit" class="button">Cadastrar-se</button>
+             </div>
+        </div>
+    </body>
 </HTML>

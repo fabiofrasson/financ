@@ -3,7 +3,11 @@
     --color-background2: linear-gradient( -110grad, #C5DBC7,#b1dbb5);
 }
 *{
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
+=======
+    font-family: "Roboto-Regular";
+>>>>>>> 647781ab1d09a0bfc24513009cc9fd7f32fe0083
     margin: 0;
     padding: 0;
     box-sizing: border-box;

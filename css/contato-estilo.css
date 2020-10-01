@@ -1,4 +1,62 @@
 
+#navbar {
+    background: var(--color-background2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+
+#navbar div {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto auto 30px;
+}
+
+#navbar img {
+    width: 75px;  
+    height: auto;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color:  #04660E;
+    padding: 10px 30px;
+    border-radius: 6.5px;
+    margin: 10px 20px;
+}
+
+#navbar ul a:hover {
+    color: white;
+    background-color:  #04660E;
+    border-radius: 6.5px;
+    transition: 0.3s;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {    
+    list-style-type: none;    
+    margin: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
 
 body{
     background: var(--color-background2);
@@ -42,7 +100,7 @@ div#form h1{
 }
 
 hr{
-    background: #ffa500;
+    background: #04660E;
     border: none;
     width: 50%;
     height: 2px;
@@ -58,13 +116,27 @@ div#formulario{
 }
 
 input.contato{
+    position: relative;
     width: 100%;
     height: 25px;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgba(0,0,0,.6);
     margin-bottom: 50px;
-    padding: 5px 10px;
+    padding: 5px 0px;
     outline: none;
+}
+
+.box-input{
+    position: relative;
+}
+
+.box-input label{
+    color: rgba(0,0,0,.6);
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    pointer-events: none;
+    transition: 0.5s;
 }
 
 div#mensagem{
@@ -74,15 +146,28 @@ div#mensagem{
 
 }
 
+.box-input input:focus ~ label,
+.box-input input:valid ~ label
+
+{
+    transform: translateY(-24px);
+    color: #04660E;
+    font-size: 10pt;
+}
+
+.box-input input:focus,
+.box-input input:valid{
+    border-bottom: 2px solid  #04660E;
+}
+
 textarea{
     width: 85%;
-    min-width: 85%;
     height: 90%;
-    min-height: 89%;
     margin: 0 auto;
     padding-top: 20px;
     border: none;
     outline: none;
+    resize: none;
 }
 button#enviar{
     width: 100%;
@@ -95,6 +180,10 @@ button#enviar{
 
 header img{
     height: 50%;
+}
+
+input#captcha{
+    margin-left: 35px;
 }
 
 @media(max-width: 600px){
