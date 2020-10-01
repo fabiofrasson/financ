@@ -19,6 +19,7 @@ body, html {
     height: 50px;
     width: 100%;    
     margin: 0;
+    border-bottom: #ffffff 1px solid;
 }
 
 #navbar div {
@@ -26,6 +27,7 @@ body, html {
     height: auto;
     display: block;
     margin: 10px auto auto 30px;
+    
 }
 
 #navbar img {
@@ -145,4 +147,5 @@ hr {
 
 @font-face {
 	font-family: "Roboto-Regular";
-	src: url("../fontes/Roboto-Regular.woff");
+    src: url("../fontes/Roboto-Regular.woff");
+}
