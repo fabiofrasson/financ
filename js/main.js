@@ -10,7 +10,7 @@ window.addEventListener("scroll", function() {
 
 // Linkar o botão 
 
-var mybutton = document.getElementById('myBtn')
+var mybutton = document.getElementById("myBtn")
 
 // Quando o user rolar para baixo 20px, mostra o botão
 
@@ -26,6 +26,6 @@ function scrollFunction () {
 
 // Quando o user clica no botão, volta para o topo da página
 
-function topFunction () {
+function topFunction() {
     document.documentElement.scrollTop = 0;
 }
