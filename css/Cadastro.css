@@ -52,7 +52,14 @@ div#container{
     font-weight: bold;
     border-radius: 20px;
     margin-top: 100px;
+    transition: 0.5s;
 }
+
+.verde input:hover{
+    background-color: white;
+    color: green;
+}
+
 
 
 .branco{
@@ -87,13 +94,23 @@ form{
     color: #8DB892;
 }
 
-.branco input#Logar{
-        background-color: #8DB892;
-        width: 40%;
-        padding: 20px;
-        font-size: 16pt;
-        color: #ffffff;
-        font-weight: bold;
-        margin-top: 40px;
-    
+.branco button {
+    background-color: #8DB892;
+    width: 40%;
+    padding: 20px;
+    font-size: 16pt;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    transition: 0.5s;
 }
+
+.branco button:hover {
+    background-color: transparent;
+    border: 2px solid green;
+    color: green;
+}
+
