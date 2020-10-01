@@ -19,9 +19,19 @@
                 <h1>Contate-nos</h1><hr>
 
                 <div id="formulario">
-                    <input class="contato" type="text" placeholder="Nome">
-                    <input class="contato" type="email" placeholder="E-mail">
+                    <div class="box-input">
+                        <input class="contato" type="text" required="required">
+                        <label>Nome</label>
+                    </div>
+                    <div class="box-input">
+                        <input class="contato" type="email" required="required">
+                        <label>E-mail</label>
+                    </div>
                 </div>
+
+                <input id="captcha" type="checkbox">
+                <span>Não sou um robô</span>
+
             </div>
             <div id="mensagem">
                 <textarea placeholder="Mensagem"></textarea>

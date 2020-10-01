@@ -42,7 +42,7 @@ div#form h1{
 }
 
 hr{
-    background: #ffa500;
+    background: #04660E;
     border: none;
     width: 50%;
     height: 2px;
@@ -58,13 +58,27 @@ div#formulario{
 }
 
 input.contato{
+    position: relative;
     width: 100%;
     height: 25px;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid rgba(0,0,0,.6);
     margin-bottom: 50px;
-    padding: 5px 10px;
+    padding: 5px 0px;
     outline: none;
+}
+
+.box-input{
+    position: relative;
+}
+
+.box-input label{
+    color: rgba(0,0,0,.6);
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    pointer-events: none;
+    transition: 0.5s;
 }
 
 div#mensagem{
@@ -72,6 +86,20 @@ div#mensagem{
     display: flex;
     flex-direction: column;
 
+}
+
+.box-input input:focus ~ label,
+.box-input input:valid ~ label
+
+{
+    transform: translateY(-24px);
+    color: #04660E;
+    font-size: 10pt;
+}
+
+.box-input input:focus,
+.box-input input:valid{
+    border-bottom: 2px solid  #04660E;
 }
 
 textarea{
@@ -95,6 +123,10 @@ button#enviar{
 
 header img{
     height: 50%;
+}
+
+input#captcha{
+    margin-left: 35px;
 }
 
 @media(max-width: 600px){
