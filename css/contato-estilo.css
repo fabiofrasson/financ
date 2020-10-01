@@ -1,4 +1,62 @@
 
+#navbar {
+    background: var(--color-background2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+    margin: 0;
+    border-bottom: 1px solid #fff;
+}
+
+#navbar div {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto auto 30px;
+}
+
+#navbar img {
+    width: 75px;  
+    height: auto;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color:  #04660E;
+    padding: 10px 30px;
+    border-radius: 6.5px;
+    margin: 10px 20px;
+}
+
+#navbar ul a:hover {
+    color: white;
+    background-color:  #04660E;
+    border-radius: 6.5px;
+    transition: 0.3s;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {    
+    list-style-type: none;    
+    margin: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
 
 body{
     background: var(--color-background2);
@@ -104,13 +162,12 @@ div#mensagem{
 
 textarea{
     width: 85%;
-    min-width: 85%;
     height: 90%;
-    min-height: 89%;
     margin: 0 auto;
     padding-top: 20px;
     border: none;
     outline: none;
+    resize: none;
 }
 button#enviar{
     width: 100%;
