@@ -71,6 +71,9 @@ body{
 .teamIcon{
     width: 24px;
     height: 24px;
-    
+    margin-left: 10px;    
+}
+.teamIcon:first-child{
+    margin-left: 0;
 }
 
