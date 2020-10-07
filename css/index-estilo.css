@@ -22,7 +22,9 @@ body, html {
     height: 50px;
     width: 100%;    
     margin: 0;
-    border-bottom: #ffffff 1px solid;
+    overflow: hidden;
+    transition: 0.4s;
+    z-index: 99;
 }
 
 #navbar div {
@@ -30,7 +32,6 @@ body, html {
     height: auto;
     display: block;
     margin: 10px auto auto 30px;
-    
 }
 
 #navbar img {
@@ -183,3 +184,8 @@ a#topo {
 }
 
 
+/* Fonte */
+
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fontes/Roboto-Regular.woff");
