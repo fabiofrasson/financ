@@ -8,7 +8,7 @@ body{
 
 header{
     width: 100%;
-    height: 80px;
+    height: 75px;
     border-bottom: 1px solid white;
 }
 
@@ -27,7 +27,6 @@ header{
 
 #navbar div {
     width: 100%;
-    height: auto;
     display: block;
     margin-left: 40px;
 }
@@ -43,17 +42,14 @@ header{
     padding: 10px 30px;
     border-radius: 6.5px;
     margin: 10px 20px;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 #navbar ul a:hover {
     color: white;
     background-color:  #04660E;
-    border-radius: 6.5px;
-    transition: 0.3s;
-    margin: 10px 20px;
-    padding: 10px 30px;
-    width: 100%;
-    cursor: pointer;
+
 }
 
 ul {
@@ -79,11 +75,7 @@ body{
     height: 100vh;
 }
 
-header{
-    width: 100%;
-    height: 17vh;
-    border-bottom: 1px solid white;
-}
+
 
 div.container{
     width: 100%;
