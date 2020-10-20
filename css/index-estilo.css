@@ -34,7 +34,7 @@ body, html {
     height: auto;
 }
 
-#navbar ul a {
+#navbar ul {
     text-decoration: none;
     color:  #04660E;
     padding: 10px 30px;
@@ -185,4 +185,5 @@ hr {
 
 @font-face {
 	font-family: "Roboto-Regular";
-	src: url("../fontes/Roboto-Regular.woff");
+    src: url("../fontes/Roboto-Regular.woff");
+}   
