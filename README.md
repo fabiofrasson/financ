@@ -1,8 +1,10 @@
 # FinanC - Fabio, Fernando, Luisa e Raul #
 
 ### Fabio - Index: ###
-- Header com a logo e menu de navegação com opções Sobre e Contato, botões de Login e Cadastre-se;
-- Três fotos com efeito Parallax e textos com frases comerciais.
+- Header com a logo e menu de navegação contendo as opções Sobre, Contato, Login e Cadastro;
+- Scroll da página com efeito Parallax, incluindo três fotos e três caixas de texto destacando as vantagens na utilização do site;
+- Informações de Copyright, Política de Privacidade e Termos de Uso;
+- Botão "Ir para o topo" conforme o usuário utiliza o scroll na página.
 
 ### Fernando - Contato: ###
 - Header com a logo, menu com sobre e contato e botão de login e cadastre-se;
