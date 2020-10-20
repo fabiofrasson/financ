@@ -2,7 +2,7 @@
     --color-background: #C5DBC7;
     --color-background2: linear-gradient( -110grad, #C5DBC7,#b1dbb5);
 }
-*{
+* {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
