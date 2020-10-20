@@ -68,13 +68,29 @@ li {
 }
 
 
+
+
+
+
+
+body{
+    background: var(--color-background2);
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 17vh;
+    border-bottom: 1px solid white;
+}
+
 div.container{
     width: 100%;
     height: 83vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 div#box{
@@ -110,7 +126,7 @@ hr{
 
 div#formulario{
     width: 80%;
-    margin: 50px auto 10px auto;
+    margin: 50px auto;
 
 }
 
