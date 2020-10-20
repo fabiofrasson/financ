@@ -1,7 +1,9 @@
 body{
-    background: var(--color-background2);
-    width: 100vw;
-    height: 100vh;
+    background: url('../imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+
 }
 
 #texto{
@@ -24,7 +26,14 @@ body{
     font-size: 18px;
     font-weight: 300;
     line-height: 20px;
-    
+}
+
+.conteudoContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
 
 }
 
@@ -33,7 +42,8 @@ body{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 30px;
+    padding: 30px;
 }
 
 .teamCard{
